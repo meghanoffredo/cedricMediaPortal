@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+    <title>Cédric's Media Portal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Francois+One&family=Old+Standard+TT:ital@0;1&family=Rampart+One&family=Vast+Shadow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <nav>
+        <p class="circle0"></p>
+        <p class="circle1"></p>
+        <p class="circle2"></p>
+        <p class="circle0"></p>
+        <p class="circle1"></p>
+        <p class="circle2"></p>
+        <p class="circle0"></p>
+        <p class="circle1"></p>
+        <p class="circle2"></p>
+        <p class="circle0"></p>
+        <p class="circle1"></p>
+        <p class="circle2"></p>
+        <p class="circle0"></p>
+        <p class="circle1"></p>
+        <p class="circle2"></p>
+        <p class="circle0"></p>
+        <p class="circle1"></p>
+        <p class="circle2"></p>
+    </nav>
+    <header>
+        <h1 id="welcome"></h1> <!-- Custom welcome based on time of day with user's name included -->
+        <hr>
+        <p id="date"></p> <!-- Today's date -->
+    </header>
+
+        <div class="times">
+            <div class="time-zones">
+                <iframe class="clock" src="https://free.timeanddate.com/clock/i82o8nyf/n776/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+                <p>Dubai</p>
+            </div>
+            <div class="time-zones">
+                <iframe class="clock" src="https://free.timeanddate.com/clock/i82o8nyf/n214/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+                <p>Riyadh</p>
+            </div>
+            <div class="time-zones">
+                <iframe class="clock" src="https://free.timeanddate.com/clock/i82o8nyf/n195/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+                <p>Paris</p>
+            </div>
+            <div class="time-zones">
+                <iframe class="clock" src="https://free.timeanddate.com/clock/i82o8nyf/n179/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+                <p>New York</p>
+            </div>
+        </div>
+
+        <div class="weather">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/25d2055d27/dubai/" data-label_1="DUBAI" data-label_2="7 Day Forecast" data-theme="original" >DUBAI 7 Day Forecast</a>
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        </div>
+
+        <!-- Podcast Row -->
+        <figure class="spotify">
+            <a href="https://open.spotify.com" target="_blank"><img src="/images/spotify.jpeg" alt="Spotify"></a>
+            <figcaption>Spotify</figcaption>
+        </figure>
+        <figure class="bfm">
+            <a href="https://https://www.bfmtv.com/" target="_blank"><img src="/images/bfm.png" alt="BFM TV"></a>
+            <figcaption>BFM TV</figcaption>
+        </figure>
+        <figure class="football">
+            <a href="https://rmc.bfmtv.com/mediaplayer/podcast/l-after-foot/" target="_blank"><img src="/images/rmc.jpeg" alt="RMC After Foot Podcast"></a>
+            <figcaption>RMC After Foot</figcaption>
+        </figure>
+        <figure class="binance">
+            <a href="https://binance.com" target="_blank"><img src="/images/binance.png" alt="Binance"></a>
+            <figcaption>Binance</figcaption>
+        </figure>
+
+        <!-- Remaining Media (NYT, Gmail, Twitter, Insta) Row -->
+        <figure class="gmail">
+            <a href="https://gmail.com" target="_blank"><img src="/images/gmail.jpeg" alt="Gmail"></a>
+            <figcaption>Gmail</figcaption>
+        </figure>
+        <figure class="facebook">
+            <a href="https://facebook.com" target="_blank"><img src="/images/facebook.png" alt="Facebook"></a>
+            <figcaption>Facebook</figcaption>
+        </figure>
+        <figure class="instagram">
+            <a href="https://instagram.com" target="_blank"><img src="/images/instagram.jpeg" alt="Instagram"></a>
+            <figcaption>Instagram</figcaption>
+        </figure>
+        <figure class="twitter">
+            <a href="https://twitter.com" target="_blank"><img src="/images/twitter.jpeg" alt="Twitter"></a>
+            <figcaption>Twitter</figcaption>
+        </figure>
+
+    </div>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="javascript.js"></script>
+
+</body>
+
+</html>
